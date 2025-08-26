@@ -38,19 +38,20 @@ body, html {
     bottom: 400px;         
     left: 50%;          
     transform: translateX(-50%);
-    
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--corBranca);
     
-    color: #fff;
-    font-family: "Pixelify Sans", sans-serif;
+   
 }
 
 .loader {
     display: flex;
     gap: 8px;
     margin-bottom: 15px;
+    
+    
 }
 
 .loader span {
@@ -59,6 +60,7 @@ body, html {
     background: #fff;
     border-radius: 50%;
     animation: bounce 0.6s infinite alternate;
+    
 }
 
 .loader span:nth-child(2) {
@@ -80,7 +82,7 @@ body, html {
 }
 
 .load p {
-    font-size: 2rem;
-    font-weight: bold;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
-

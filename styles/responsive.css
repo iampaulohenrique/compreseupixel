@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    h1.titulo-section {
+        font-size: 3rem;
+    }
+.homepage {
+    max-width: 1380px;
+    padding: 0 4%;
+    margin: 0 auto;
+
+
+}
+.home p {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    height: 800;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.loader {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    
+
+}
+.loader span {
+    width: 3-px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+    
+}
+
+}
